@@ -15,4 +15,4 @@ RUN if [ "$NODE_ENV" = "production" ]; then \
 
 CMD ["pm2-runtime","app.js"]
 
-EXPOSE 9981
+EXPOSE 8080
